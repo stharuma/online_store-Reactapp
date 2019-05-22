@@ -6,7 +6,7 @@ export default (props) => {
   return (
     <div> 
       <Header />
-      <div className="container">
+      <div className="page-container">
       { props.children }
       </div>
     </div>
