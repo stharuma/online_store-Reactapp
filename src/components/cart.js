@@ -1,9 +1,11 @@
 import React,{Component} from 'react';
+import Cart from '../features/cart'
 
-export default class Card extends Component {
+export default class CartPage extends Component {
     render(){
         return( <div>
-            <h1>It is cart page !!!!</h1>
+            <h1>My Cart !!!</h1>
+            <Cart/>
         </div>);
     }
 }
